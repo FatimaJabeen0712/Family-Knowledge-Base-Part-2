@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category><pattern>WHO IS THE FATHER OF *</pattern><template>PROLOG:father:_:<star/></template></category>
+<category><pattern>WHO IS * FATHER</pattern><template>PROLOG:father:_:<star/></template></category>
+<category><pattern>WHAT IS THE NAME OF THE FATHER OF *</pattern><template>PROLOG:father:_:<star/></template></category>
+<category><pattern>TELL ME THE FATHER OF *</pattern><template>PROLOG:father:_:<star/></template></category>
+<category><pattern>WHO IS THE MOTHER OF *</pattern><template>PROLOG:mother:_:<star/></template></category>
+<category><pattern>WHO IS * MOTHER</pattern><template>PROLOG:mother:_:<star/></template></category>
+<category><pattern>TELL ME THE MOTHER OF *</pattern><template>PROLOG:mother:_:<star/></template></category>
+<category><pattern>WHO ARE THE CHILDREN OF *</pattern><template>PROLOG:son:_:<star/>|PROLOG:daughter:_:<star/></template></category>
+<category><pattern>WHO ARE * CHILDREN</pattern><template>PROLOG:son:_:<star/>|PROLOG:daughter:_:<star/></template></category>
+<category><pattern>LIST THE CHILDREN OF *</pattern><template>PROLOG:son:_:<star/>|PROLOG:daughter:_:<star/></template></category>
+<category><pattern>WHO ARE THE PARENTS OF *</pattern><template>PROLOG:father:_:<star/>|PROLOG:mother:_:<star/></template></category>
+<category><pattern>WHO ARE * PARENTS</pattern><template>PROLOG:father:_:<star/>|PROLOG:mother:_:<star/></template></category>
+<category><pattern>WHO IS THE SON OF *</pattern><template>PROLOG:son:_:<star/></template></category>
+<category><pattern>WHO ARE THE SONS OF *</pattern><template>PROLOG:son:_:<star/></template></category>
+<category><pattern>WHO IS THE DAUGHTER OF *</pattern><template>PROLOG:daughter:_:<star/></template></category>
+<category><pattern>WHO ARE THE DAUGHTERS OF *</pattern><template>PROLOG:daughter:_:<star/></template></category>
+<category><pattern>WHO IS THE BROTHER OF *</pattern><template>PROLOG:brother:_:<star/></template></category>
+<category><pattern>WHO ARE THE BROTHERS OF *</pattern><template>PROLOG:brother:_:<star/></template></category>
+<category><pattern>WHO IS * BROTHER</pattern><template>PROLOG:brother:_:<star/></template></category>
+<category><pattern>DOES * HAVE A BROTHER</pattern><template>PROLOG:brother:_:<star/></template></category>
+<category><pattern>WHO IS THE SISTER OF *</pattern><template>PROLOG:sister:_:<star/></template></category>
+<category><pattern>WHO ARE THE SISTERS OF *</pattern><template>PROLOG:sister:_:<star/></template></category>
+<category><pattern>WHO IS * SISTER</pattern><template>PROLOG:sister:_:<star/></template></category>
+<category><pattern>WHO ARE THE SIBLINGS OF *</pattern><template>PROLOG:sibling:_:<star/></template></category>
+<category><pattern>DOES * HAVE SIBLINGS</pattern><template>PROLOG:sibling:_:<star/></template></category>
+<category><pattern>WHO IS THE GRANDFATHER OF *</pattern><template>PROLOG:grandfather:_:<star/></template></category>
+<category><pattern>WHO IS * GRANDFATHER</pattern><template>PROLOG:grandfather:_:<star/></template></category>
+<category><pattern>WHO IS THE GRANDMOTHER OF *</pattern><template>PROLOG:grandmother:_:<star/></template></category>
+<category><pattern>WHO IS * GRANDMOTHER</pattern><template>PROLOG:grandmother:_:<star/></template></category>
+<category><pattern>WHO IS THE DADA OF *</pattern><template>PROLOG:dada:_:<star/></template></category>
+<category><pattern>WHO IS THE DADI OF *</pattern><template>PROLOG:dadi:_:<star/></template></category>
+<category><pattern>WHO IS THE NANA OF *</pattern><template>PROLOG:nana:_:<star/></template></category>
+<category><pattern>WHO IS THE NANI OF *</pattern><template>PROLOG:nani:_:<star/></template></category>
+<category><pattern>WHO ARE THE GRANDCHILDREN OF *</pattern><template>PROLOG:grandson:_:<star/>|PROLOG:granddaughter:_:<star/></template></category>
+<category><pattern>WHO ARE THE GRANDSONS OF *</pattern><template>PROLOG:grandson:_:<star/></template></category>
+<category><pattern>WHO ARE THE GRANDDAUGHTERS OF *</pattern><template>PROLOG:granddaughter:_:<star/></template></category>
+<category><pattern>WHO IS THE UNCLE OF *</pattern><template>PROLOG:uncle:_:<star/></template></category>
+<category><pattern>WHO ARE THE UNCLES OF *</pattern><template>PROLOG:uncle:_:<star/></template></category>
+<category><pattern>WHO IS THE AUNT OF *</pattern><template>PROLOG:aunt:_:<star/></template></category>
+<category><pattern>WHO IS THE TAYA OF *</pattern><template>PROLOG:taya:_:<star/></template></category>
+<category><pattern>WHO IS THE CHACHA OF *</pattern><template>PROLOG:chacha:_:<star/></template></category>
+<category><pattern>WHO IS THE NEPHEW OF *</pattern><template>PROLOG:nephew:_:<star/></template></category>
+<category><pattern>WHO IS THE NIECE OF *</pattern><template>PROLOG:niece:_:<star/></template></category>
+<category><pattern>WHO ARE THE COUSINS OF *</pattern><template>PROLOG:cousin:_:<star/></template></category>
+<category><pattern>WHO IS THE COUSIN OF *</pattern><template>PROLOG:cousin:_:<star/></template></category>
+<category><pattern>DOES * HAVE COUSINS</pattern><template>PROLOG:cousin:_:<star/></template></category>
+<category><pattern>WHO IS * HUSBAND</pattern><template>PROLOG:husband:_:<star/></template></category>
+<category><pattern>WHO IS THE HUSBAND OF *</pattern><template>PROLOG:husband:_:<star/></template></category>
+<category><pattern>WHO IS * WIFE</pattern><template>PROLOG:wife:_:<star/></template></category>
+<category><pattern>WHO IS THE WIFE OF *</pattern><template>PROLOG:wife:_:<star/></template></category>
+<category><pattern>IS * MARRIED</pattern><template>PROLOG:spouse:_:<star/></template></category>
+<category><pattern>WHO IS * MARRIED TO</pattern><template>PROLOG:spouse:_:<star/></template></category>
+<category><pattern>WHO IS THE FATHER IN LAW OF *</pattern><template>PROLOG:father_in_law:_:<star/></template></category>
+<category><pattern>WHO IS THE MOTHER IN LAW OF *</pattern><template>PROLOG:mother_in_law:_:<star/></template></category>
+<category><pattern>WHO IS THE SON IN LAW OF *</pattern><template>PROLOG:son_in_law:_:<star/></template></category>
+<category><pattern>WHO IS THE DAUGHTER IN LAW OF *</pattern><template>PROLOG:daughter_in_law:_:<star/></template></category>
+<category><pattern>WHO IS THE BROTHER IN LAW OF *</pattern><template>PROLOG:brother_in_law:_:<star/></template></category>
+<category><pattern>WHO IS THE SISTER IN LAW OF *</pattern><template>PROLOG:sister_in_law:_:<star/></template></category>
+<category><pattern>HOW OLD IS *</pattern><template>PROLOG:age:_:<star/></template></category>
+<category><pattern>WHAT IS THE AGE OF *</pattern><template>PROLOG:age:_:<star/></template></category>
+<category><pattern>WHAT IS * AGE</pattern><template>PROLOG:age:_:<star/></template></category>
+<category><pattern>WHEN WAS * BORN</pattern><template>PROLOG:dob:_:<star/></template></category>
+<category><pattern>WHAT IS THE DATE OF BIRTH OF *</pattern><template>PROLOG:dob:_:<star/></template></category>
+<category><pattern>WHAT IS * DATE OF BIRTH</pattern><template>PROLOG:dob:_:<star/></template></category>
+<category><pattern>IS * MALE</pattern><template>PROLOG:male:_:<star/></template></category>
+<category><pattern>IS * FEMALE</pattern><template>PROLOG:female:_:<star/></template></category>
+<category><pattern>WHAT IS THE GENDER OF *</pattern><template>PROLOG:gender:_:<star/></template></category>
+<category><pattern>WHO IS THE ELDER BROTHER OF *</pattern><template>PROLOG:elder_brother:_:<star/></template></category>
+<category><pattern>WHO IS THE YOUNGER BROTHER OF *</pattern><template>PROLOG:younger_brother:_:<star/></template></category>
+<category><pattern>IS * OLDER THAN *</pattern><template>PROLOG:older:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>WHO ARE THE ANCESTORS OF *</pattern><template>PROLOG:ancestor:_:<star/></template></category>
+<category><pattern>WHO ARE THE DESCENDANTS OF *</pattern><template>PROLOG:descendant:_:<star/></template></category>
+<category><pattern>ARE * AND * RELATED</pattern><template>PROLOG:related:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>IS * RELATED TO *</pattern><template>PROLOG:related:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>HELLO</pattern><template>Hello! I am the Family KB Query Bot. Ask me about family relationships. Type HELP for examples.</template></category>
+<category><pattern>HI</pattern><template>Hi! Ask me: "Who is the father of ali?" or "How old is hamza?" etc.</template></category>
+<category><pattern>HELP</pattern><template>Try:
+- Who is the father/mother of [name]?
+- Who are the children/siblings of [name]?
+- Who is the grandfather/grandmother of [name]?
+- How old is [name]?
+- Who is the uncle/aunt/cousin of [name]?
+- Who is [name] married to?</template></category>
+<category><pattern>BYE</pattern><template>Goodbye!</template></category>
+<category><pattern>THANK YOU</pattern><template>You are welcome!</template></category>
+<category><pattern>*</pattern><template>I did not understand that. Try: "Who is the father of [name]?" or type HELP.</template></category>
+</aiml>

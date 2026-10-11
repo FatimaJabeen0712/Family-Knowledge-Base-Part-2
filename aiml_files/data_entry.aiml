@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- ADD MALE -->
+<category><pattern>ADD MALE *</pattern>
+<template><set name="fact_type">male</set><set name="fact_arg1"><star/></set><set name="fact_arg2">none</set><set name="fact_ready">yes</set>Got it! Recorded: male(<star/>).</template></category>
+
+<category><pattern>* IS MALE</pattern>
+<template><set name="fact_type">male</set><set name="fact_arg1"><star/></set><set name="fact_arg2">none</set><set name="fact_ready">yes</set>Got it! Recorded: male(<star/>).</template></category>
+
+<category><pattern>* IS A MALE</pattern>
+<template><set name="fact_type">male</set><set name="fact_arg1"><star/></set><set name="fact_arg2">none</set><set name="fact_ready">yes</set>Got it! Recorded: male(<star/>).</template></category>
+
+<category><pattern>* IS A MAN</pattern>
+<template><set name="fact_type">male</set><set name="fact_arg1"><star/></set><set name="fact_arg2">none</set><set name="fact_ready">yes</set>Got it! Recorded: male(<star/>).</template></category>
+
+<category><pattern>* IS A BOY</pattern>
+<template><set name="fact_type">male</set><set name="fact_arg1"><star/></set><set name="fact_arg2">none</set><set name="fact_ready">yes</set>Got it! Recorded: male(<star/>).</template></category>
+
+<!-- ADD FEMALE -->
+<category><pattern>ADD FEMALE *</pattern>
+<template><set name="fact_type">female</set><set name="fact_arg1"><star/></set><set name="fact_arg2">none</set><set name="fact_ready">yes</set>Got it! Recorded: female(<star/>).</template></category>
+
+<category><pattern>* IS FEMALE</pattern>
+<template><set name="fact_type">female</set><set name="fact_arg1"><star/></set><set name="fact_arg2">none</set><set name="fact_ready">yes</set>Got it! Recorded: female(<star/>).</template></category>
+
+<category><pattern>* IS A FEMALE</pattern>
+<template><set name="fact_type">female</set><set name="fact_arg1"><star/></set><set name="fact_arg2">none</set><set name="fact_ready">yes</set>Got it! Recorded: female(<star/>).</template></category>
+
+<category><pattern>* IS A WOMAN</pattern>
+<template><set name="fact_type">female</set><set name="fact_arg1"><star/></set><set name="fact_arg2">none</set><set name="fact_ready">yes</set>Got it! Recorded: female(<star/>).</template></category>
+
+<category><pattern>* IS A GIRL</pattern>
+<template><set name="fact_type">female</set><set name="fact_arg1"><star/></set><set name="fact_arg2">none</set><set name="fact_ready">yes</set>Got it! Recorded: female(<star/>).</template></category>
+
+<!-- ADD PARENT -->
+<category><pattern>ADD PARENT * *</pattern>
+<template><set name="fact_type">parent</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: parent(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* IS THE PARENT OF *</pattern>
+<template><set name="fact_type">parent</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: parent(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* IS PARENT OF *</pattern>
+<template><set name="fact_type">parent</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: parent(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* IS THE FATHER OF *</pattern>
+<template><set name="fact_type">parent</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded parent(<star index="1"/>, <star index="2"/>). Also add gender if not done.</template></category>
+
+<category><pattern>* IS THE MOTHER OF *</pattern>
+<template><set name="fact_type">parent</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded parent(<star index="1"/>, <star index="2"/>). Also add gender if not done.</template></category>
+
+<category><pattern>* HAS A CHILD NAMED *</pattern>
+<template><set name="fact_type">parent</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: parent(<star index="1"/>, <star index="2"/>).</template></category>
+
+<!-- ADD MARRIED -->
+<category><pattern>ADD MARRIED * *</pattern>
+<template><set name="fact_type">married</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: married(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* IS MARRIED TO *</pattern>
+<template><set name="fact_type">married</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: married(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* AND * ARE MARRIED</pattern>
+<template><set name="fact_type">married</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: married(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* MARRIED *</pattern>
+<template><set name="fact_type">married</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: married(<star index="1"/>, <star index="2"/>).</template></category>
+
+<!-- ADD DOB -->
+<category><pattern>ADD DOB * *</pattern>
+<template><set name="fact_type">dob</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: dob(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* WAS BORN IN *</pattern>
+<template><set name="fact_type">dob</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: dob(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>THE DATE OF BIRTH OF * IS *</pattern>
+<template><set name="fact_type">dob</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: dob(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* IS BORN IN *</pattern>
+<template><set name="fact_type">dob</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: dob(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* DATE OF BIRTH IS *</pattern>
+<template><set name="fact_type">dob</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: dob(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* BIRTH YEAR IS *</pattern>
+<template><set name="fact_type">dob</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: dob(<star index="1"/>, <star index="2"/>).</template></category>
+
+<!-- ADD NATIONALITY -->
+<category><pattern>ADD NATIONALITY * *</pattern>
+<template><set name="fact_type">nationality</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: nationality(<star index="1"/>, <star index="2"/>).</template></category>
+
+<category><pattern>* NATIONALITY IS *</pattern>
+<template><set name="fact_type">nationality</set><set name="fact_arg1"><star index="1"/></set><set name="fact_arg2"><star index="2"/></set><set name="fact_ready">yes</set>Got it! Recorded: nationality(<star index="1"/>, <star index="2"/>).</template></category>
+
+<!-- COMMANDS -->
+<category><pattern>SHOW FACTS</pattern><template>SHOW_FACTS</template></category>
+<category><pattern>LIST FACTS</pattern><template>SHOW_FACTS</template></category>
+<category><pattern>VIEW FACTS</pattern><template>SHOW_FACTS</template></category>
+<category><pattern>SHOW ALL FACTS</pattern><template>SHOW_FACTS</template></category>
+<category><pattern>DONE</pattern><template>DONE_ADDING</template></category>
+<category><pattern>FINISH</pattern><template>DONE_ADDING</template></category>
+<category><pattern>I AM DONE</pattern><template>DONE_ADDING</template></category>
+<category><pattern>STOP</pattern><template>DONE_ADDING</template></category>
+
+<category><pattern>HELP</pattern>
+<template>Add facts using natural language:
+- "[name] is male" or "[name] is a man"
+- "[name] is female" or "[name] is a woman"
+- "[name] is the parent of [child]"
+- "[name] is married to [name]"
+- "[name] was born in [year]"
+- "add nationality [name] [nationality]"
+Commands: SHOW FACTS | DONE</template></category>
+
+<category><pattern>HELLO</pattern>
+<template>Hello! I am the Family Fact Collector. Tell me facts about your family and I will add them to the Prolog knowledge base. Type HELP for examples.</template></category>
+
+<category><pattern>HI</pattern>
+<template>Hi! Start entering family facts. Type HELP to see how.</template></category>
+
+<category><pattern>*</pattern>
+<template>I did not understand that. Try: "[name] is male", "[name] is the parent of [child]", or "[name] was born in [year]". Type HELP for all formats.</template></category>
+
+</aiml>
